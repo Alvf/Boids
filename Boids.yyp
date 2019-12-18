@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "3ee55fdb-e284-4042-abbe-482eb1d19ec0",
+            "Value": {
+                "id": "b7d6b623-3e24-4802-bd51-0fca14e3e603",
+                "resourcePath": "objects\\Barrier\\Barrier.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "45415bd7-ec44-4256-965a-39a0102b39fe",
             "Value": {
                 "id": "38b6c4ea-f0b3-4c59-8fa7-ee02c756f852",

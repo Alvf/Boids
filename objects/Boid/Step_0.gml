@@ -70,7 +70,7 @@ if(total!=0){
 var xcont = 0
 var ycont = 0
 var total = 0
-with(Asshole){
+with(Barrier){
 	var distance =distance_to_point(other.x,other.y)
 	if(distance<=other.perception and distance!=0){
 		xcont += other.mass*(other.x-x)/(distance)
