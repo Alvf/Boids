@@ -13,6 +13,7 @@ if(y>=room_height or y<0){
 
 image_angle = point_direction(0,0,-hspeed,-vspeed)
 
+if(global.behavior[0]){
 //speed matching behavior
 var nethspeed =0 
 var netvspeed =0
@@ -30,6 +31,9 @@ hspeed += (nethspeed/total -hspeed)/10/mass
 vspeed += (netvspeed/total-vspeed)/10/mass
 }
 
+}
+
+if(global.behavior[1]){
 //cohesion
 var netx = 0
 var nety = 0
@@ -50,6 +54,9 @@ if(total!=0){
 	vspeed += (comy-other.y)/steer/mass
 }
 
+}
+
+if(global.behavior[2]){
 //antisocial
 var xcont = 0
 var ycont = 0
@@ -67,12 +74,15 @@ if(total!=0){
 	vspeed += ycont/mass
 }
 
+}
+
+//Blue guy avoidance
 var xcont = 0
 var ycont = 0
 var total = 0
 with(Barrier){
 	var distance =distance_to_point(other.x,other.y)
-	if(distance<=other.perception and distance!=0){
+	if(distance<=other.perception and distance!=0 and image_alpha == 1){
 		xcont += other.mass*(other.x-x)/(distance)
 		ycont += other.mass*(other.y-y)/(distance)
 		total++

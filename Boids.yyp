@@ -103,11 +103,27 @@
             }
         },
         {
+            "Key": "47522b7d-b0df-47ce-932c-96f8307ad162",
+            "Value": {
+                "id": "98bc4fb0-5299-4b51-947d-9d0bf1179e33",
+                "resourcePath": "sprites\\spr_instructionprompt\\spr_instructionprompt.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4e49811d-69fc-4665-bf78-0afd44e8409f",
             "Value": {
                 "id": "98ae64c6-9d0b-4679-898b-b28dc74fc163",
                 "resourcePath": "views\\4e49811d-69fc-4665-bf78-0afd44e8409f.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "50b0db16-7c55-4b82-b69f-4ac828b13c0d",
+            "Value": {
+                "id": "2be3266d-19bb-48bd-a377-797489586c8e",
+                "resourcePath": "sprites\\spr_instructions\\spr_instructions.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -132,6 +148,14 @@
                 "id": "408fd3fa-ad22-453c-9406-3c6056d9f13c",
                 "resourcePath": "views\\657aa700-034f-420b-a22a-881c774f7eeb.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "6ad50ed8-653b-41f8-a6d9-d56869a03006",
+            "Value": {
+                "id": "0699fc90-4513-4fb5-ad3b-e0a9cab3a566",
+                "resourcePath": "objects\\iprompt\\iprompt.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -188,6 +212,14 @@
                 "id": "41f49b5d-a72e-4783-a583-da6a71ff5ce5",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "c7bf5c23-2e8d-43f8-ab3f-0f8c6cea85fc",
+            "Value": {
+                "id": "831f6be7-ae17-4d22-990c-ae868a984613",
+                "resourcePath": "objects\\Behaviortracker\\Behaviortracker.yy",
+                "resourceType": "GMObject"
             }
         },
         {
