@@ -3,7 +3,7 @@
 
 switch(state){
 	case statesiprompt.intro:
-		if(current_time-spawntime>3000){
+		if(current_time-spawntime>5500){
 			state = statesiprompt.asleep
 		}
 		else if(image_alpha<1){
@@ -11,7 +11,6 @@ switch(state){
 		}
 		break;
 	case statesiprompt.wakeup:
-		show_debug_message("wakeup!")
 		if(image_alpha<1){
 			image_alpha+=0.05
 		}
@@ -27,15 +26,16 @@ switch(state){
 		}
 		break;
 	case statesiprompt.asleep:
-		show_debug_message("asleep!")
+		if(image_alpha = 0){
+			sprite_index = spr_instructionprompt
+			x = 1280
+			y = 1312
+		}
 		if(image_alpha>0){
 			image_alpha -=0.05
 		}
 		else if(distance_to_point(mouse_x,mouse_y)<15){
 			state = statesiprompt.wakeup
-			sprite_index = spr_instructionprompt
-			x = 1280
-			y = 1312
 		}
 		else if(keyboard_check_pressed(ord("I"))){
 			state = statesiprompt.displaying
@@ -45,7 +45,6 @@ switch(state){
 		}
 		break;
 	case statesiprompt.displaying:
-		show_debug_message("displaying!")
 		if(image_alpha<1){
 			image_alpha+=0.05
 		}

@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "32ee520e-a12a-4da6-b695-b3038a3f7e09",
+            "Value": {
+                "id": "e1189035-25dc-4d2a-8aa8-f22695eefeef",
+                "resourcePath": "fonts\\Arial\\Arial.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "356b2d89-e323-4d87-8905-23999e55966c",
             "Value": {
                 "id": "5add085d-d701-4c01-b5e1-8e81c3242e93",
@@ -123,6 +131,14 @@
             "Value": {
                 "id": "2be3266d-19bb-48bd-a377-797489586c8e",
                 "resourcePath": "sprites\\spr_instructions\\spr_instructions.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "5fe35f1f-b02d-4425-90fc-58a12a417152",
+            "Value": {
+                "id": "fbc10e7b-7b9c-4ab9-b593-93f0599616b8",
+                "resourcePath": "sprites\\spr_ThoseBirds\\spr_ThoseBirds.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -244,6 +260,22 @@
                 "id": "64bb7d51-4ef0-4a78-b832-9e1720da2bd8",
                 "resourcePath": "views\\ce0f451b-a1a6-404b-a265-9e84c7ef7dd6.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d4e2e13d-a804-489b-a33d-d77fa8dea705",
+            "Value": {
+                "id": "e210e206-5d08-4800-b4e3-34dc24f008a3",
+                "resourcePath": "sprites\\spr_BOIDIntro\\spr_BOIDIntro.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e41899b4-cba9-418f-b92e-38ae6e7abcf5",
+            "Value": {
+                "id": "980f9bee-dca9-4f17-900c-c54b90389ae5",
+                "resourcePath": "objects\\TextDisplay\\TextDisplay.yy",
+                "resourceType": "GMObject"
             }
         },
         {
