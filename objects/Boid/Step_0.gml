@@ -93,6 +93,23 @@ if(total!=0){
 	vspeed += ycont/mass
 }
 
+//Attractor attraction
+var xcont = 0
+var ycont = 0
+var total = 0
+with(Attractor){
+	var distance =distance_to_point(other.x,other.y)
+	if(distance!=0){
+		xcont += other.mass*(x-other.x)/(distance)
+		ycont += other.mass*(y-other.y)/(distance)
+		total++
+	}
+}
+if(total!=0){
+	hspeed += xcont/mass
+	vspeed += ycont/mass
+}
+
 
 if(speed>=mspeed){
 	speed = mspeed
